@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/topview"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#232423" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="10dp"
+            android:background="#00000000"
+            android:text="返回"
+            android:textColor="#ffffff" >
+        </Button>
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/style_topbar_title"
+            android:layout_gravity="center"
+            android:text="路径"
+            android:textColor="#ffffff" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="10dp"
+            android:background="#00000000"
+            android:text="搜索"
+            android:textColor="#ffffff" >
+        </Button>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_poifrom_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_poifrom"
+            android:textSize="12sp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/topview"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:text="选择起点" />
+
+        <Button
+            android:id="@+id/btn_mypoifrom"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:text="我的位置" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_poito_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_poifrom_panel"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_poito"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:text="选择终点" />
+
+        <Button
+            android:id="@+id/btn_mypoito"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:text="我的位置" />
+    </LinearLayout>
+
+</RelativeLayout>

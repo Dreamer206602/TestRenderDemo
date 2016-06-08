@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indoor_search_bg_color" >
+
+    <!-- 室内搜索顶部标题栏 -->
+
+    <include
+        android:id="@+id/indoor_search_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indoor_title_bar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/indoor_view_search_result_top" />
+
+    <!-- 搜索结果列表 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/indoor_search_top"
+        android:clickable="true" >
+
+        <ListView
+            android:id="@+id/indoor_search_result_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/indoor_board_line"
+            android:dividerHeight="1dp" />
+        
+        <TextView
+            android:id="@+id/indoor_search_result_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="没有您要查找的结果"
+            android:textColor="@color/indoor_black_color"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

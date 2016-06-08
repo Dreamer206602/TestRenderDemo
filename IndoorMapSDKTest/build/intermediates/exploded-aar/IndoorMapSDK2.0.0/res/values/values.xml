@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IndoorRenderSdk</string>
+    <string name="indoor_contentDescription">室内控件描述</string>
+    <string name="indoor_version">2.0.0</string>
+</resources>

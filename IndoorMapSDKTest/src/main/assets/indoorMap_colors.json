@@ -1,0 +1,108 @@
+{
+    "colors":{
+        "color0_roof":{"r": 230, "g": 230, "b": 230, "a": 255},
+        "color0_wall":{"r": 207, "g": 207, "b": 207, "a": 255},
+        "color1_roof":{"r": 222, "g": 215, "b": 245, "a": 255},
+        "color1_wall":{"r": 199, "g": 193, "b": 220, "a": 255},
+        "color2_roof":{"r": 250, "g": 235, "b": 210, "a": 255},
+        "color2_wall":{"r": 225, "g": 211, "b": 189, "a": 255},
+        "color3_roof":{"r": 189, "g": 223, "b": 252, "a": 255},
+        "color3_wall":{"r": 170, "g": 200, "b": 226, "a": 255},
+        "color4_roof":{"r": 252, "g": 221, "b": 197, "a": 255},
+        "color4_wall":{"r": 226, "g": 198, "b": 177, "a": 255},
+        "green":{"r": 208, "g": 235, "b": 186, "a": 255},
+        "river":{"r": 117, "g": 201, "b": 255, "a": 255},
+        "path_normal":{"r": 246, "g": 179, "b": 127, "a": 255},
+        "path_highlight":{"r": 0, "g": 255, "b": 0, "a": 255},
+        "transparency":{"r": 0, "g": 255, "b": 0, "a": 0}
+    },
+    "path":{
+        "normal":"path_normal",
+        "highlight":"path_highlight"
+    },
+    "categorys":{
+        "default":{
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "0": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "1": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "2": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "3": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "4": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "5": {
+            
+            "default":{"roof":"color2_roof", "wall":"color2_wall"}
+        },
+        "6": {
+            "default":{"roof":"color1_roof", "wall":"color1_wall"}
+        },
+        "7": {
+            "1100":{"roof":"color4_roof", "wall":"color4_wall"},
+            "400":{"roof":"color4_roof", "wall":"color4_wall"},
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "8": {
+            "default":{"roof":"color4_roof", "wall":"color4_wall"}
+        },
+        "9": {
+            "0":{"roof":"color4_roof", "wall":"color4_wall"},
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "10": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "11": {
+            "100":{"roof":"transparency", "wall":"transparency"},
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "12": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "13": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "14": {
+            "default":{"roof":"color1_roof", "wall":"color1_wall"}
+        },
+        "15": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "16": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "17": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "20": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        },
+        "98": {
+            "1002":{"roof":"color4_roof", "wall":"color4_wall"},
+            "902":{"roof":"color4_roof", "wall":"color4_wall"},
+            "702":{"roof":"color4_roof", "wall":"color4_wall"},
+            "701":{"roof":"color4_roof", "wall":"color4_wall"},
+            "605":{"roof":"color4_roof", "wall":"color4_wall"},
+            "505":{"roof":"color4_roof", "wall":"color4_wall"},
+            "455":{"roof":"color4_roof", "wall":"color4_wall"},
+            "452":{"roof":"color4_roof", "wall":"color4_wall"},
+            "429":{"roof":"color4_roof", "wall":"color4_wall"},
+            "404":{"roof":"color4_roof", "wall":"color4_wall"},
+            "1209":{"roof":"color3_roof", "wall":"color3_wall"},
+            "604":{"roof":"color4_roof", "wall":"color4_wall"},
+            "default":{"roof":"color1_roof", "wall":"color1_wall"}
+        },
+        "99": {
+            "default":{"roof":"color0_roof", "wall":"color0_wall"}
+        }
+    }
+}

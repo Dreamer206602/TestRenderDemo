@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="indoorbg_color">#FFFFFF</color>
+    <color name="indoor_list_item_hl_color">#edf4fe</color>
+    <color name="indoor_black_color">#000000</color>
+    <color name="indoor_gray_color">#FF888888</color>
+    <color name="indoor_search_bg_color">#efefef</color>
+    <color name="indoor_search_input_press_color">#b2b2b2</color>
+    <color name="indoor_blue_white">#b8caeb</color>
+    <color name="indoor_dark_blue_white">#bfd9ff</color>
+
+
+
+    <drawable name="indoor_transparent_drawable">#00000000</drawable>
+    <drawable name="indoor_listview_item_drawable">#ffffff</drawable>
+</resources>

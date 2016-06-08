@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#00000000">
+    <FrameLayout 
+        android:id="@+id/topview"
+        android:padding="5dp"
+        android:background="#232423"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/aliglmap_topnav_height"
+        android:orientation="horizontal">
+        <Button
+        android:id="@+id/btn_back"
+        android:text="返回"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        ></Button>
+        <TextView
+		android:layout_gravity="center"        
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:textColor="#ffffffff"
+        android:text="规划点选择"
+        >
+        </TextView>
+         <Button
+        android:text="确定"
+        android:layout_gravity="right"
+        android:id="@+id/btn_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        ></Button>
+    </FrameLayout>
+    
+    <ListView  
+    android:id="@+id/list_floors"
+    android:visibility="invisible"
+    android:layout_below="@+id/topview"
+    android:layout_height="300dp"
+    android:layout_width="50dp"
+    android:layout_margin="10dp"
+    android:background="#88000000"
+    >
+</ListView>
+   
+    <!--<TextView -->
+        <!--android:id="@+id/text_search"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:layout_width="fill_parent" -->
+        <!--android:layout_height="50dp" -->
+        <!---->
+        <!--/>-->
+   
+</RelativeLayout>

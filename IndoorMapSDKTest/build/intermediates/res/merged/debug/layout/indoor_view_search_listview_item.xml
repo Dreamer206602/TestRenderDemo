@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/indoor_pos_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/indoor_list_item_bg_selector" >
+
+    <ImageView
+        android:id="@+id/indoor_pos_imageview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/indoor_contentDescription"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/indoor_search_input_icon"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/indoor_pos_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/indoor_title"
+        android:textColor="@color/indoor_black_color"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/indoor_pos_distance"
+        android:layout_toRightOf="@id/indoor_pos_imageview"
+        android:gravity="left|center_vertical"
+        android:minHeight="55dp"
+        android:orientation="vertical" >
+
+        <!-- android:textColor="@color/indoor_gray_color" -->
+
+        <TextView
+            android:id="@+id/indoor_pos_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/indoor_transparent_drawable"
+            android:duplicateParentState="true"
+            android:text="@string/indoor_title"
+            android:textColor="@color/indoor_black_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/indoor_pos_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/indoor_transparent_drawable"
+            android:duplicateParentState="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/indoor_title"
+            android:textColor="@color/indoor_gray_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

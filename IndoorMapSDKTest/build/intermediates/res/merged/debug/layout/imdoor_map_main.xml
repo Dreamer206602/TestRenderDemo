@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <fragment android:id="@+id/indoor_main_map_view"
+        android:name="com.amap.api.im.view.IMIndoorMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/indoor_search_edittext"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:id="@+id/route_btn"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/indoor_black_color"
+            android:text="设置"
+            android:textSize="12sp"
+            android:background="@color/indoorbg_color"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:id="@+id/locating_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/white"
+            android:src="@drawable/indoor_gps_unlocked"/>
+    </RelativeLayout>
+
+</RelativeLayout>

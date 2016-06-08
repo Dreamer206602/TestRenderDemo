@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IndoorRenderSDK3D</string>
+    <string name="action_settings">Settings</string>
+
+
+
+
+    <string name="indoor_contentDescription">室内控件描述</string>
+
+    <string name="indoor_title">室内地图</string>
+    <string name="indoor_search_edittext_hint">  室内搜索</string>
+    <string name="indoor_bussiness_txt">精品商家</string>
+    <string name="indoor_service_txt">服务设施</string>
+    <string name="indoor_clear_input_description">清空输入</string>
+    <string name="indoor_detail_txt">详情</string>
+
+
+</resources>

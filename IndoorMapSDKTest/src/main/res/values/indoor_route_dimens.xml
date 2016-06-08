@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <dimen android:layout_height="wrap_content" android:id="@+id/dimen1" android:layout_width="wrap_content" name="aliglmap_topnav_height">50dp</dimen>
+    <dimen name="Poi_max_width">50dp</dimen>
+    
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="400dpi"
+    format="7"
+    timestamp="3762288684417"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="145" />
+    <task
+        name="instant-run-dex"
+        duration="638" />
+    <task
+        name="instant-run-transform"
+        duration="49" />
+    <task
+        name="verifier"
+        duration="8" />
+
+    <artifact
+        location="F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="3112639779129" >
+        <artifact
+            location="F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\outputs\apk\IndoorMapSDKTest-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="3762288684417"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/indoor_main_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/imdoor_map_main" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bottomview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/bottom_view_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/indoor_drag_tip_bg"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+            <!-- android:background="@drawable/aliglmap_text_bg" -->
+            <TextView
+                android:id="@+id/text_poi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/indoor_black_color"
+                android:singleLine="true" />
+            <TextView
+                android:id="@+id/text_poi_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/indoor_gray_color"
+                android:textSize="10sp"
+                android:singleLine="true" />
+            <Button
+                android:id="@+id/btn_gohere"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/indoor_common_title_btn_normal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:singleLine="true"
+                android:layout_marginTop="2dp"
+                android:textColor="#fff0f0f0"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="去这里" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/gridview_item_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/indoor_contentDescription" />
+
+    <TextView
+        android:id="@+id/gridview_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridview_item_image"
+        android:layout_centerHorizontal="true"
+        android:text="@string/indoor_detail_txt"
+        android:textSize="13sp"
+        android:textColor="@color/indoor_black_color" />
+
+</RelativeLayout>

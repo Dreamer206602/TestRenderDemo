@@ -1,0 +1,128 @@
+[
+{
+    "1001": {
+        "name": "餐饮",
+		"para": "1,0xffad9f87,0xfffae6c3,0xffe1cfaf,0xffc8b89c,0xffFFe6c3"
+    },
+    "1002": {
+        "name": "休闲娱乐",
+		"para": "1,0xff8ba5b3,0xffc7ecff,0xffb3d4e5,0xff9fbdcc,0xffFFecff"
+    },
+	"1003": {
+        "name": "购物",
+		"para": "1,0xffa69496,0xfff2d8db,0xffd9c2c5,0xffc2adaf,0xffFFd8db"
+    },
+	"1004": {
+        "name": "其他",
+		"para": "1,0xff999999,0xffe6e6e6,0xffcfcfcf,0xffb8b8b8,0xffFFe6e6"
+    },
+	"1005": {
+        "name": "洗手间",
+		"para": "1,0xff878c99,0xffe1eaff,0xffcad2e5,0xffb4bbcc,0xffFF8c99"
+    },
+	"1006": {
+        "name": "水平面",
+		"para": "0,0xff999999,0xffe6e6e6,0xffcfcfcf,0xffb8b8b8,0xffe6e6e6"
+    },
+	"1007": {
+        "name": "中空面",
+		"para": "-1,0xff999999,0xffe6e6e6,0xffcfcfcf,0xffb8b8b8,0xffe6e6e6"
+    },
+	"1901": {
+        "name": "可通行区域",
+		"para": "0,0xffab88ab,0xfffcfcfa,0xfffcfcfa,0xfffcfcfa,0xfffcfcfa"
+    },
+	"1902": {
+        "name": "背景面",
+		"para": "0,,0xffcfcfcf,0xffcfcfcf,0xffcfcfcf,0xffcfcfcf"
+    }
+}
+,
+{
+    "2001": {
+        "name": "美食",
+		"para": "24,0xff8e6b4e,0,1,0,1,50",
+        "icon": "1.food.png"
+    },
+	"2002": {
+        "name": "咖啡",
+		"para": "24,0xff8e6b4e,0,1,0,1,50",
+        "icon": "2.coffee.png"
+    },
+	"2003": {
+        "name": "购物",
+		"para": "24,0xff84638e,0,1,0,1,50",
+        "icon": "3.shopping.png"
+    },
+	"2004": {
+        "name": "超市",
+		"para": "24,0xff84638e,0,1,0,1,50",
+        "icon": "4.supermarket.png"
+    },
+	"2005": {
+        "name": "娱乐",
+		"para": "24,0xff935676,0,1,0,1,50",
+        "icon": "5.enjoy.png"
+    },
+	"2006": {
+        "name": "电影院",
+		"para": "24,0xff935676,0,1,0,1,50",
+        "icon": "6.movie.png"
+    },
+	"2007": {
+        "name": "门",
+		"para": "0,0xff8e6b4e,0,1,0,1,50",
+        "icon": "7.door.png"
+    },
+	"2008": {
+        "name": "扶梯",
+		"para": "0,0xff8e6b4e,0,1,0,1,50",
+        "icon": "8.handladder.png"
+    },
+	"2009": {
+        "name": "电梯",
+		"para": "0,0xff8e6b4e,0,1,0,1,50",
+        "icon": "9.elevtor.png"
+    },
+	"2010": {
+        "name": "楼梯",
+		"para": "0,0xff8e6b4e,0,1,0,1,50",
+        "icon": "10.footladder.png"
+    },
+	"2011": {
+        "name": "ATM",
+		"para": "0,0xff8e6b4e,0,1,0,1,50",
+        "icon": "11.ATM.png"
+    },
+	"2012": {
+        "name": "停车场",
+		"para": "0,0xff8e6b4e,0,1,0,1,50",
+        "icon": "12.park.png"
+    },
+	"2013": {
+        "name": "洗手间",
+		"para": "0,0xff8e6b4e,0,1,0,1,50",
+        "icon": "13.bashroom.png"
+    },
+	"2014": {
+        "name": "公共电话",
+		"para": "0,0xff8e6b4e,0,1,0,1,50",
+        "icon": "14.phone.png"
+    },
+	"2015": {
+        "name": "问讯处",
+		"para": "24,0xff8e6b4e,0,1,0,1,50",
+        "icon": "15.asking.png"
+    },
+	"2016": {
+        "name": "收银台",
+		"para": "24,0xff8e6b4e,0,1,0,1,50",
+        "icon": "16.cashing.png"
+    },
+	"2017": {
+        "name": "其他",
+		"para": "24,0xff8e6b4e,0,1,0,1,50",
+        "icon": "17.others.png"
+    }	
+}
+]

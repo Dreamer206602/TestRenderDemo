@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff" >
+    <FrameLayout
+    android:id="@+id/topview" 
+    android:background="#232423"
+    android:layout_alignParentTop="true"
+    android:layout_height="@dimen/aliglmap_topnav_height"
+    android:layout_width="fill_parent">
+    <Button 
+        android:text="路径"
+        android:layout_marginLeft="10dp"
+        android:background="#00000000"
+        android:textColor="#ffffff"
+        android:id="@+id/btn_back"
+        android:layout_gravity="center_vertical|left"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    </Button>
+    
+    <TextView
+       android:id="@+id/title"
+       android:layout_gravity="center"
+       android:text="路线详情"
+       style="@style/style_topbar_title"
+       android:textColor="#ffffff"
+        ></TextView>
+    
+    <Button 
+        android:id="@+id/btn_map"
+        android:text="地图"
+        android:layout_marginRight="10dp"
+        android:background="#00000000"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_vertical|right"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    </Button>
+</FrameLayout>
+    <ListView 
+        android:id="@+id/listview"
+        android:dividerHeight="0px"
+        android:divider="@android:color/transparent"
+        android:cacheColorHint="#00000000"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        
+    </ListView>
+
+</LinearLayout>

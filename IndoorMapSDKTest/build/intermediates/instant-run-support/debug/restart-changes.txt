@@ -1,0 +1,11 @@
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$InnerHandler.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$6.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$4.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$3.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$8.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$1.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$SDKInitHandler.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$5.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$2.class
+CHANGED,F:\AsWorkSpace_IndoorMap\TestRenderDemo\IndoorMapSDKTest\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\autonavi\indoor\render3D\MainActivity$7.class

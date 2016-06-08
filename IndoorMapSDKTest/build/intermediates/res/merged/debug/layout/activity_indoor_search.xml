@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/indoor_search_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indoor_search_bg_color" >
+
+    <!-- 室内搜索顶部标题栏 -->
+
+    <include
+        android:id="@+id/indoor_search_category_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/indoor_title_bar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/indoor_view_search_category_top" />
+
+    <!-- title下面的选项 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indoor_search_category_title"
+        android:background="@color/indoor_search_bg_color"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 精选商家 -->
+
+            <LinearLayout
+                android:id="@+id/indoor_bussiness_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/indoor_bussiness_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/indoor_bussiness_txt"
+                    android:textColor="@color/indoor_black_color"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/indoor_board_line" />
+
+                <com.autonavi.indoor.render3D.search.IMGridView
+                    android:id="@+id/indoor_business_gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/indoorbg_color"
+                    android:gravity="center"
+                    android:horizontalSpacing="10dp"
+                    android:listSelector="@drawable/indoor_gridview_selector"
+                    android:numColumns="4"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/indoor_board_line" />
+            </LinearLayout>
+
+            <!-- 服务设施 -->
+
+            <LinearLayout
+                android:id="@+id/indoor_service_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/indoor_service_txt"
+                    android:textColor="@color/indoor_black_color"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/indoor_board_line" />
+
+                <com.autonavi.indoor.render3D.search.IMGridView
+                    android:id="@+id/indoor_service_gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/indoorbg_color"
+                    android:gravity="center"
+                    android:horizontalSpacing="10dp"
+                    android:listSelector="@drawable/indoor_gridview_selector"
+                    android:numColumns="4"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/indoor_board_line" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/indoor_search_category_title"-->
+        <!--android:background="@color/indoor_search_bg_color"-->
+        <!--android:scrollbars="none" >-->
+        <!---->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical" >-->
+
+            <!--&lt;!&ndash; 服务设施 &ndash;&gt;-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/search_list_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical" >-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--android:layout_marginLeft="15dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="@string/indoor_service_txt"-->
+                    <!--android:textColor="@color/indoor_black_color"-->
+                    <!--android:textSize="16sp" />-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+    <include
+        android:id="@+id/indoor_search_result_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/indoor_view_search_result"
+        android:visibility="gone" />
+
+</RelativeLayout>

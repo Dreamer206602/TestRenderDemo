@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_nav0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="15dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/btn_zoomin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/indoor_contentDescription"
+        android:src="@drawable/indoor_zoombar_zoomin"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/btn_zoomout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/indoor_contentDescription"
+        android:src="@drawable/indoor_zoombar_zoomout"
+        android:visibility="visible" />
+</LinearLayout>
